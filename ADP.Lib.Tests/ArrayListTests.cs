@@ -53,6 +53,6 @@ public class ArrayListTests
             list.Remove(items[i]);
         }
 
-        Assert.Equal(0, list.Count);
+        Assert.Empty(list);
     }
 }
